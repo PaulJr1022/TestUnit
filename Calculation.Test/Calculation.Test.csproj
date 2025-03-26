@@ -12,8 +12,4 @@
     <PackageReference Include="xunit.extensibility.core" Version="2.9.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\TestUnit\TestUnit.csproj" />
-  </ItemGroup>
-
 </Project>

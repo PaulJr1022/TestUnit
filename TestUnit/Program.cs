@@ -4,16 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
 
             var calculator = new Calculator();
 
             Console.WriteLine("Simple Calculator");
-            Console.Write("Enter first number: ");
-            int num1 = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Enter second number: ");
-            int num2 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter first number: ");
+            //int num1 = Convert.ToInt32(Console.ReadLine());
+            int num1 = 10;
+            int num2 = 5;
+            //Console.Write("Enter second number: ");
+            //int num2 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine($"Addition: {calculator.Add(num1, num2)}");
             Console.WriteLine($"Subtraction: {calculator.Subtract(num1, num2)}");
